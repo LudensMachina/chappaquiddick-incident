@@ -26,7 +26,15 @@
       background-size: cover;
       background-position: center;
     }
-
+    
+    .eyebrow {
+      font-size: clamp(14px, 1.6vw, 28px);
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      color: #d0d0d0;
+      margin-bottom: 2vw;
+    }
+       
     h1 {
       font-size: 9.5vw;
       margin: 0;
@@ -36,7 +44,7 @@
     .subtitle {
       margin-top: 2rem;
       max-width: 700px;
-      font-size: 1.5vw;
+      font-size: clamp(20px, 2.6vw, 42px);
       line-height: 1.8;
       color: #cccccc;
     }
@@ -107,7 +115,9 @@
 <body>
 
   <section class="hero">
-    <div>AMERICAN SCANDAL ARCHIVE</div>
+    <div class = "eyebrow">
+      AMERICAN SCANDAL ARCHIVE
+    </div>
 
     <h1>
       Chappaquiddick Incident
