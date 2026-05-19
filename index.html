@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chappaquiddick</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: Georgia, serif;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10vw;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,0.4), black),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2070');
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+      font-size: 7rem;
+      margin: 0;
+      line-height: 0.9;
+    }
+
+    .subtitle {
+      margin-top: 2rem;
+      max-width: 700px;
+      font-size: 1.5rem;
+      line-height: 1.8;
+      color: #cccccc;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 8rem 2rem;
+    }
+
+    .timeline-item {
+      border-left: 2px solid #444;
+      padding-left: 2rem;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: white;
+      position: absolute;
+      left: -8px;
+      top: 5px;
+    }
+
+    .year {
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #d0d0d0;
+      line-height: 1.9;
+      font-size: 1.2rem;
+    }
+
+    .quote {
+      font-size: 3rem;
+      line-height: 1.4;
+      color: white;
+      margin: 6rem 0;
+    }
+
+    .footer {
+      text-align: center;
+      color: #666;
+      padding: 4rem;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div>AMERICAN SCANDAL ARCHIVE</div>
+
+    <h1>
+      Chappaquiddick
+    </h1>
+
+    <div class="subtitle">
+      A bridge. A submerged car. A dead campaign worker.
+      And the final surviving Kennedy son.
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Kennedy Timeline</h2>
+
+    <div class="timeline-item">
+      <div class="year">1944</div>
+      <h3>Joseph Kennedy Jr. Dies</h3>
+      <p>
+        The Kennedy family's original political heir dies during World War II.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="year">1963</div>
+      <h3>JFK Assassinated</h3>
+      <p>
+        President John F. Kennedy is assassinated in Dallas.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="year">1968</div>
+      <h3>RFK Assassinated</h3>
+      <p>
+        Robert F. Kennedy is killed during his presidential campaign.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="year">1969</div>
+      <h3>The Crash</h3>
+      <p>
+        Ted Kennedy drives off Dike Bridge into dark water on Chappaquiddick Island.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="quote">
+      “Chappaquiddick did not destroy Ted Kennedy.
+      It destroyed the Kennedy myth.”
+    </div>
+
+    <p>
+      The scandal permanently changed how Americans viewed the Kennedy dynasty.
+      Although Ted Kennedy remained one of the most powerful senators in U.S. history,
+      Chappaquiddick followed him for the rest of his life.
+    </p>
+  </section>
+
+  <div class="footer">
+    Inspired by American political history and documentary storytelling.
+  </div>
+
+</body>
+</html>
